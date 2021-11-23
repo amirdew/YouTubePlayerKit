@@ -10,6 +10,7 @@ extension YouTubePlayerWebView {
     
     /// Open URL
     /// - Parameter url: The URL that should be opened
+    @available(iOSApplicationExtension, unavailable)
     func open(
         url: URL
     ) {
